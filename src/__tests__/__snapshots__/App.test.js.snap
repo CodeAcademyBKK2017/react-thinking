@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Overlay: renders correctly 1`] = `
+<div
+  className="App"
+>
+  <input
+    type="text"
+    value={0}
+  />
+  <button
+    onClick={[Function]}
+  >
+    ADD
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    SUBTRACT
+  </button>
+</div>
+`;

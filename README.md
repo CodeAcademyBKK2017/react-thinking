@@ -1,13 +1,6 @@
-# Create a counter application
+# Thinking in React
 
-Add a text with counter value starting from 0 by default.
+Break your UI into components
 
-Add a button on the page with text "ADD" and "SUBTRACT".
-
-When you click button ADD increment the counter by 1
-
-When you click button SUBTRACT decrement the counter by 1
-
-
-The app should look like this:
+Refer the following component Hierarchy
 ![Image](https://github.com/CodeAcademyBKK2017/stateprops/raw/master/demo.png)
