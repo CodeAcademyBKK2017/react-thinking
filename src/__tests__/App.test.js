@@ -2,11 +2,8 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import Enzyme, {shallow} from 'enzyme';
 import App from '../App';
-//setup enzyme
-import Adapter from 'enzyme-adapter-react-16';
-Enzyme.configure({ adapter: new Adapter() });
 
-describe('App', () => {
+describe('App component', () => {
   it('Overlay: renders correctly', () => {
     const tree = renderer.create(<App />).toJSON();
     expect(tree).toMatchSnapshot();
