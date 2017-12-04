@@ -23,8 +23,8 @@ class Counter extends Component {
 		return (
 			<div className="Counter">
 				<CountStatus status={this.state.count} />
-				<Button type="ADD" onClick={this.add} />
-				<Button type="SUB" onClick={this.subtract} />
+				<Button title="Add" type="ADD" onClick={this.add} />
+				<Button title="Subtract" type="SUB" onClick={this.subtract} />
 			</div>
 		);
 	}

@@ -4,7 +4,5 @@ exports[`Button component Button: renders correctly 1`] = `
 <button
   className="Button"
   onClick={[Function]}
->
-  ADD
-</button>
+/>
 `;

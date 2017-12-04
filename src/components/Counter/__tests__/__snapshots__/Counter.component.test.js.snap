@@ -13,13 +13,13 @@ exports[`Counter component Counter: renders correctly 1`] = `
     className="Button"
     onClick={[Function]}
   >
-    ADD
+    Add
   </button>
   <button
     className="Button"
     onClick={[Function]}
   >
-    SUBTRACT
+    Subtract
   </button>
 </div>
 `;

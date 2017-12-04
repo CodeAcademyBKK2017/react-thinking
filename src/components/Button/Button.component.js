@@ -5,14 +5,7 @@ import noop from 'lodash/noop';
 
 class Button extends Component {
 	render () {
-		const {type, onClick} = this.props;
-
-		let title = "";
-		if(type === "ADD") {
-			title = "ADD";
-		} else if(type === "SUB") {
-			title = "SUBTRACT";
-		}
+		const {title, type, onClick} = this.props;
 
 		return (
 			<button className="Button" onClick={onClick}>
