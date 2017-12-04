@@ -1,0 +1,35 @@
+.Counter-box {
+    display: inline-block;
+    border: 3px solid black;
+    background-color: #27b4ff;
+    color: black;
+    font-size: 60px;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+}
+.Counter-button {
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.Counter-button--yellow {
+    background-color: #ffb000;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    padding: 30px 0;
+    margin: 0 110px;
+}
+.Counter-button--green {
+    background-color: #007f23;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    padding: 30px 0;
+    margin: 0 110px;
+}

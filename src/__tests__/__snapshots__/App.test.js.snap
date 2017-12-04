@@ -4,19 +4,41 @@ exports[`App component App: renders correctly 1`] = `
 <div
   className="App"
 >
-  <input
-    type="text"
-    value={0}
-  />
-  <button
-    onClick={[Function]}
-  >
-    ADD
-  </button>
-  <button
-    onClick={[Function]}
-  >
-    SUBTRACT
-  </button>
+  <div>
+    <div
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <input
+        className="Counter-box"
+        type="text"
+        value={0}
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "marginTop": "90px",
+          "textAlign": "center",
+        }
+      }
+    >
+      <button
+        className="Counter-button Counter-button--yellow"
+        onClick={[Function]}
+      >
+        ADD
+      </button>
+      <button
+        className="Counter-button Counter-button--yellow"
+        onClick={[Function]}
+      >
+        SUBTRACT
+      </button>
+    </div>
+  </div>
 </div>
 `;
