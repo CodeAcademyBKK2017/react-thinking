@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`State: snapshot test 1`] = `
+<input
+  type="text"
+  value="1"
+/>
+`;

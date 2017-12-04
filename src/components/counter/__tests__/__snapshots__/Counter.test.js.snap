@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter component Counter: renders correctly 1`] = `
+<div>
+  <input
+    type="text"
+    value={0}
+  />
+  <button
+    onClick={[Function]}
+  >
+    ADD
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    SUBTRACT
+  </button>
+</div>
+`;
