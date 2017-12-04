@@ -8,11 +8,4 @@ describe('App component', () => {
     const tree = renderer.create(<App />).toJSON();
     expect(tree).toMatchSnapshot();
   });
-  it('add: should increment state', () => {
-    const wrapper = shallow(<App />);
-    const instance = wrapper.instance();
-    expect(instance.state.count).toBe(0);
-    instance.add();
-    expect(instance.state.count).toBe(1);
-  });
 });

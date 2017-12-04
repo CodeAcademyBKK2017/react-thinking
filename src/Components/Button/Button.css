@@ -1,0 +1,21 @@
+.btn {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 5px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.btn.btn-add {
+    background: #ffaf04;
+    color: black;
+}
+.btn.btn-subtract { 
+    background: #087e29;
+    color: white;
+}
