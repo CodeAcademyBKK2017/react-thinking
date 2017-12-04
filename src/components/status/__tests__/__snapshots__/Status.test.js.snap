@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Status component Status: renders correctly 1`] = `
+<input
+  type="text"
+  value={0}
+/>
+`;
