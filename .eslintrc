@@ -29,7 +29,8 @@
         "arrow-spacing": 2,
         "object-curly-spacing": 2,
         "quotes": ["error", "single"],
-        "no-console": 2
+        "no-console": 2,
+        "extends": ["eslint:recommended", "plugin:react/recommended"]
     },
     "globals": {
         "it" : true,
