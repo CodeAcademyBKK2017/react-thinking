@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component Button: Snapshot test 1`] = `
+<button
+  className="Counter-button Counter-button--yellow"
+  onClick={[Function]}
+>
+  ADD
+</button>
+`;

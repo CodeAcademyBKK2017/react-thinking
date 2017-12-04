@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CounterStatus component CounterStatus: Snapshot test 1`] = `
+<input
+  className="Counter-box"
+  type="text"
+  value={5}
+/>
+`;
