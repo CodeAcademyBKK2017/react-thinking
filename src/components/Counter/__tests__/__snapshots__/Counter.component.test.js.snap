@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Overlay: renders correctly 1`] = `
+<div
+  className="Counter"
+>
+  <input
+    className="CountStatus"
+    type="text"
+    value={0}
+  />
+  <div
+    className="btn btn-add"
+    onClick={[Function]}
+  >
+    ADD
+  </div>
+  <div
+    className="btn btn-subtract"
+    onClick={[Function]}
+  >
+    SUBTRACT
+  </div>
+</div>
+`;

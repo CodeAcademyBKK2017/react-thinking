@@ -1,0 +1,16 @@
+.CountStatus {
+    display: block;
+    
+    width: 240px;
+    height: 180px;
+
+    margin: 0 auto 50px;
+
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    border: 3px solid black;
+    background-color: #33b5ff;
+    text-align: center;
+    line-height: 180px;
+}

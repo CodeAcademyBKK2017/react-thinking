@@ -4,19 +4,26 @@ exports[`App component App: renders correctly 1`] = `
 <div
   className="App"
 >
-  <input
-    type="text"
-    value={0}
-  />
-  <button
-    onClick={[Function]}
+  <div
+    className="Counter"
   >
-    ADD
-  </button>
-  <button
-    onClick={[Function]}
-  >
-    SUBTRACT
-  </button>
+    <input
+      className="CountStatus"
+      type="text"
+      value={0}
+    />
+    <div
+      className="btn btn-add"
+      onClick={[Function]}
+    >
+      ADD
+    </div>
+    <div
+      className="btn btn-subtract"
+      onClick={[Function]}
+    >
+      SUBTRACT
+    </div>
+  </div>
 </div>
 `;
