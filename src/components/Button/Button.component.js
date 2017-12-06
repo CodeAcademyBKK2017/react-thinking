@@ -6,7 +6,7 @@ import noop from 'lodash/noop';
 class Button extends Component {
 	render () {
 		const {title, type, onClick} = this.props;
-
+		
 		return (
 			<button className="Button" onClick={onClick}>
 				{title}
@@ -16,11 +16,13 @@ class Button extends Component {
 }
 
 Button.propTypes = {
+	title: PropTypes.string.isRequired,
 	type: PropTypes.oneOf(["ADD", "SUB"]).isRequired,
 	onClick: PropTypes.func.isRequired
 };
 
 Button.defaultProps = {
+	title: "",
 	type: "ADD",
 	onClick: noop
 };
