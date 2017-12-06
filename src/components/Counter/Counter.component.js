@@ -4,15 +4,23 @@ import Button from '../Button/Button.component';
 import CounterStatus from '../CounterStatus/CounterStatus.component';
 class Counter extends Component {
 
-  state = {'count': 0};
+  constructor () {
 
-  add = () => {
+    super();
+    this.state = {'count': 0};
+    this.add = this.add.bind(this);
+    this.subtract = this.subtract.bind(this);
+
+  }
+
+
+  add () {
 
     this.setState({'count': this.state.count + 1});
 
   }
 
-  subtract = () => {
+  subtract () {
 
     this.setState({'count': this.state.count - 1});
 
@@ -32,4 +40,17 @@ class Counter extends Component {
   }
 
 }
+
+/*
+ * <Counter />
+ * constructor
+ * render
+ */
+
+
+/*
+ * Const a = new Counter();
+ * a.render();
+ */
+
 export default Counter;
