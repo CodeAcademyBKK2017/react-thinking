@@ -30,12 +30,16 @@
         "object-curly-spacing": 2,
         "quotes": ["error", "single"],
         "no-console": 2,
-        "extends": ["eslint:recommended", "plugin:react/recommended"]
+        "linebreak-style":0,
+        "react/prop-types":[2],
+        "sort-imports":2,
+        "comma-spacing":2
     },
     "globals": {
         "it" : true,
         "describe" : true,
         "expect" :true,
         "test":true
-    }
+    },
+    "plugins": ["react"],"extends": ["eslint:all", "plugin:react/recommended"]
 }
