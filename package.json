@@ -11,6 +11,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest --coverage",
+    "lint": "eslint src",
     "test:watch": "jest --watchAll",
     "test:update": "jest --updateSnapshot",
     "eject": "react-scripts eject",
@@ -38,6 +39,8 @@
       "\\.(css)$": "<rootDir>/__mocks__/custom-file-loader.js"
     },
     "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
-    "setupFiles": ["enzyme-react-16-adapter-setup"]
+    "setupFiles": [
+      "enzyme-react-16-adapter-setup"
+    ]
   }
 }
