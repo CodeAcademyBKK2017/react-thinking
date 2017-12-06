@@ -4,7 +4,7 @@ import ProptTypes from 'prop-types';
 
 class Status extends Component {
  render() {
-   const {count} = this.props
+   const {count} = this.props;
    return (
     <input type="text" value={count} />
    );

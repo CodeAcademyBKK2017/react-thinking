@@ -4,12 +4,24 @@ import Status from '../status/Status.component'
 import Button from '../button/Button.component'
 
 class Counter extends Component {
-    state = {
-        count: 0
-     };
- changeCount =  (plus) =>()=>{
+  constructor(){
+    super();
+    this.state = {
+      count: 0
+    };
+    this.changeCount = this.changeCount.bind(this);
+  }
+    
+//  changeCount = plus =>()=>{ // class property
+//     let num = this.state.count;
+//     plus === true?this.setState({count:num+1}):this.setState({count:num-1});  
+//  }
+
+ changeCount (plus) {
+   return () => {
     let num = this.state.count;
-    plus === true?this.setState({count:num+1}):this.setState({count:num-1});  
+    plus === true ? this.setState({count:num+1}): this.setState({count:num-1});  
+   }
  }
 
  render() {
