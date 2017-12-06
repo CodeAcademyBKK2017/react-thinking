@@ -31,9 +31,14 @@
         "quotes": ["error", "single"],
         "no-console": 2,
         "linebreak-style":0,
-        "react/prop-types":[2],
         "sort-imports":2,
-        "comma-spacing":2
+        "comma-spacing":2,
+        "react/prop-types": 2,
+        "react/jsx-uses-vars": 2,
+        "react/jsx-no-bind": 2,
+        "react/jsx-no-duplicate-props": 2,
+        "react/self-closing-comp": 2,
+        "react/no-direct-mutation-state": 2
     },
     "globals": {
         "it" : true,
